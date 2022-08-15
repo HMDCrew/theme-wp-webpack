@@ -58,10 +58,12 @@ const entry = {
      ex: 
           "myscript": "cross-env MY_VAR_NAME=test NODE_ENV=production webpack --watch --mode production --progress"
           the webpack script recive:
+
           MY_VAR_NAME=test = on => process.env.MY_VAR_NAME
           NODE_ENV=production = on => process.env.NODE_ENV
           
           --mode production = on => argv.mode
+
       you can use this settings to customize your webpack
 
 <br />
