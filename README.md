@@ -1,7 +1,8 @@
 # theme-wp-webpack
  Webpack for wordpress theme
 
-     composer create-project — prefer-dist laravel/*<name-of-app>*
-     cd <name-of-app>
+     git clone https://github.com/HMDCrew/theme-wp-webpack.git
+     mv theme-wp-webpack assets
 
-     composer require laravel/passport
+     cd assets
+     npm i
