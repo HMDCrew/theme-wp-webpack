@@ -7,7 +7,7 @@
      cd assets
      npm i
 
-# Add separate build file:
+## Add separate build file:
    *./webpack.config.js*
 ```js
 const entry = {
