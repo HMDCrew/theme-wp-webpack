@@ -73,11 +73,11 @@ const entry = {
 # Note:
 if you wont add custom css or scss from different npm library to general index script is sufficient import this file in /src/index.js or any js file in /src/js.
 
-     remember: for any build in separate file mode all css or scss imports has separate build css
+     remember: for any build in separate file all css or scss imports has separate build css
           ex:
           for home.js for any import css or scss in this file you can find the
-          css => ./dist/css/home.bundle.css
-          js => ./dist/js/home.bundle.js
+          builded css => ./dist/css/home.bundle.css
+          builded js => ./dist/js/home.bundle.js
 
 
 
