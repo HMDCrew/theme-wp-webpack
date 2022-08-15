@@ -37,7 +37,7 @@ const entry = {
 
 ## Add run scripts like (dev || prod):
    *./package.json*
-```json
+```yaml
 "main": "main.js",
 "scripts": {
     "prod": "cross-env NODE_ENV=production webpack --mode production --progress",
