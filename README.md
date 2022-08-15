@@ -41,7 +41,7 @@ const entry = {
 "main": "main.js",
 "scripts": {
     "prod": "cross-env NODE_ENV=production webpack --mode production --progress",
-    "dev": "cross-env NODE_ENV=development webpack --watch --mode development --progress"
+    "dev": "cross-env NODE_ENV=development webpack --watch --mode development --progress",
 
     ...
 
