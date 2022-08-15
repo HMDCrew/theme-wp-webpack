@@ -1,5 +1,5 @@
 {
-  "name": "node-theme",
+  "name": "assets",
   "version": "1.0.0",
   "description": "support nodejs for template",
   "main": "main.js",
