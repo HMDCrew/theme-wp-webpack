@@ -1,5 +1,5 @@
 # theme-wp-webpack
- Webpack for wordpress theme
+ Webpack for wordpress theme with jquery
 
      git clone https://github.com/HMDCrew/theme-wp-webpack.git
      mv theme-wp-webpack assets
