@@ -6,6 +6,7 @@
 
      cd assets
      npm i
+     npm audit fix
 
 ## Start building
 
