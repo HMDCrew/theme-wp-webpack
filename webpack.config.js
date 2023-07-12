@@ -44,25 +44,11 @@ const rules = [
         ],
     }, {
         test: /\.(png|jpg|svg|jpeg|gif|ico)$/,
-        use: [
-            {
-                loader: 'file-loader',
-                options: {
-                    name: '[path][name].[ext]',
-                    publicPath: 'production' === process.env.NODE_ENV ? './' : '../',
-                },
-            },
-        ],
+        type: 'asset/resource',
     },
     {
         test: /\.(ttf|otf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
-        use: {
-            loader: 'file-loader',
-            options: {
-                name: '[path][name].[ext]',
-                publicPath: 'production' === process.env.NODE_ENV ? './' : '../'
-            }
-        }
+        type: 'asset/resource',
     }
 ];
 
